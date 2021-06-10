@@ -10,6 +10,7 @@
 * [Debian](https://www.debian.org/) - The distro Ubuntu is based on
 * [Arch](https://archlinux.org/) - A distro we'll potentially look at
 * [CentOS](https://www.centos.org/) - A distro based on Red Hat Enterprise Linux
+* [Family Tree](https://distrowatch.com/images/other/distro-family-tree.png) - Visualization of the Linux distros family trees
 * [Dev Docs](http://devdocs.io/) - Searchable documentation of many popular languages. Includes C documentation, which is what we'll be using primarily in this course. But great resource for all of you long term.
 * [Linux Journey](https://linuxjourney.com/) - Nice reference for many of the basic skills we'll discuss
 * [Linux Upskill Challenge](https://linuxupskillchallenge.com/) - Useful reference similar to many of the assignments/labs
