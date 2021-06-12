@@ -1,4 +1,4 @@
-# CINS465 Syllabus
+# CSCI444 Syllabus
 
 ## Instructor
 
@@ -6,7 +6,7 @@ Bryan Dixon
 
 ## Prerequisite
 
-CINS 370 with a grade of C or higher, or CSCI 211 and MINS 335, or MINS 325 and MINS 335. (or approved equivalents, check with your advisor)
+CSCI 211 with a grade of C or higher. (or approved equivalents, check with your advisor)
 
 Students who take this class without completing the prerequisite class will be given a failing grade.
 
@@ -17,15 +17,15 @@ In addition to a campus lab account, you need an account in the CSCI assignment 
 
 Go to [https://turnin.ecst.csuchico.edu](https://turnin.ecst.csuchico.edu "Tyson's Turnin System") and create a new account.
 
-Once you create an account, log on and enroll in CINS 465, make sure you enroll in the correct section.
+Once you create an account, log on and enroll in CSCI 444, make sure you enroll in the correct section.
 
 **I WILL DROP YOU FROM THE CLASS IF YOU DO NOT CREATE THIS ACCOUNT**
 
-You will use this system to turn in your first programming assignment, the rest will be submitted via GitHub.
+You will potentially use this system to turn in some of your assignments, the rest will be submitted via GitHub.
 
 ## Textbook
 
-We will not be using a textbook for this course, and will be relying on documentation for the framework.
+We will not be using a textbook for this course.
 
 ## Attendance
 
@@ -45,15 +45,7 @@ I will routinely post the grades to Moodle. If you are not happy with a grade, t
 
 ### Grade Category Percentages:
 
-+ Exam - 10% of course grade (if this doesn't happen it will become part of your project grade)
-
-+ Programming Projects - 40% of course grade
-
-+ Final Project - 50% of course grade
-
-+ Lecture Attendance can improve/lower your grade (see above)
-
-+ IRC participation - this will potentially replace 1/2 of the exam credit
++ To Be Determined
 
 ### Grading Meetings
 
@@ -61,7 +53,7 @@ We are going to investigate all the projects you turn in to look for code plagia
 
 ## Programming Assignments
 
-There will be at least 5 assignments due at approximately 1 week intervals starting the second week of the semester.
+TBD
 
 ### Late Assignments:
 
@@ -74,7 +66,7 @@ As this is a upper division course you'll likely want to make use of my office h
 
 We will be using Piazza for a class discussion board. I will enroll all students enrolled at the start of the semester, if you enrolled later you should email me if you aren't part of this discussion board as I'll also post announcements there. You should post any general questions here first as this will allow more students to benefit from the answer vs me potentially answering the same questions numerous times.
 
-Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CINS465'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it.
+Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CSCI444'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it.
 
 I'll be making it a habit to respond immediately to emails received between 9am-5pm, except when I'll otherwise be in a meeting, lecture, etc. Any emails outside of those times will be answered as I can or potentially the next morning at 9am, so try to make sure to email me prior to 5pm.
 
@@ -84,11 +76,6 @@ If you don't have access to the class Piazza page make sure you email me for acc
 
 If you drop the class, you should be able to un-enroll from Moodle/Piazza to stop receiving messages. Let me know if you drop the class and still get e-mail.
 
-### IRC
-
-Another way to get help for this class will be to engage the community on [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat "IRC"). There are numerous channels related to the frameworks we'll be using in this class and is a great way to get help when you've exhausted the documentation/google. I'll discuss this in lecture; however, this community will not do your project for you but can help you if you run into a bug or are stuck on how a feature works. I regularly hang out on many of these channels sometimes helping users and is where I go when I hit a bug that I can't find a simple solution to.
-
-I'll potentially offer 5 points of credit to students who can prove that they provided another user help in an IRC chatroom related to the course materials by the end of the semester. This credit will replace existing credit for the exam or other aspects of your grades that are lacking points and will not be straight extra credit on what you've already earned.
 
 ## Responsibilities
 
@@ -128,7 +115,7 @@ On the other hand, you are allowed to discuss projects and you may get help each
 
 Required Consultation: If I suspect that you did not do your own work (e.g. someone else wrote your programs), you are required to meet with me and discuss your program. During this meeting I will ask you simple questions about your program. If you don't know how your program works I will assume you have cheated. In the event that you refuse to meet with me I will:
 
-*	assume you cheated
+* assume you cheated
 * give you a zero
 * report you to Student Judicial Affairs.
 
