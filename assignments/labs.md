@@ -37,20 +37,22 @@ List of lab ideas for semester
 6. Logs/Troubleshooting
     * 1-2 broken VMs with service/goal of fixing... possibly broken service on one and need for a recovery disk on a second? 
 
-7. AWS
+7. Docker/K8s
+
+8. AWS
     * Labs 1/2 on AWS
 
-8. GCP
+9. GCP
     * Labs 1/2 on GCP
 
-9. Python for sysadmin
+10. Python for sysadmin
 
-10. Puppet
+11. Puppet
     * Labs 1&2 auto configured with puppet
 
-11. Ansible
+12. Ansible
     * Labs 1&2 auto configured with Ansible
 
-12. Final Project Cluster
+13. Final Project Cluster
     * Follow manual instructions
     * Turn in ansible playbooks or puppet manifests that automate doing it.
