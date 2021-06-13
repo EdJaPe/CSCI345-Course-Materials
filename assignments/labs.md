@@ -22,6 +22,7 @@ List of lab ideas for semester
     * Use parted to partition disk(s) with ext4
     * Auto-mount the disk somewhere using /etc/fstab
     * Potentially add multiple new disks, install ZFS, and setup ZFS volume across disks. 
+    * FUSE ssh mount remote filesystem
 
 4. IPTables?
     * allow SSH and HTTP traffic but nothing else
@@ -31,6 +32,7 @@ List of lab ideas for semester
 5. Promethus/Monitoring
     * Setup prometheus on 2 VMs 
     * https://prometheus.io/
+    * ELK/Elastic Stack?
 
 6. Logs/Troubleshooting
     * 1-2 broken VMs with service/goal of fixing... possibly broken service on one and need for a recovery disk on a second? 
@@ -41,8 +43,7 @@ List of lab ideas for semester
 8. GCP
     * Labs 1/2 on GCP
 
-9. Azure?
-    * Labs 1/2 on Azure
+9. Python for sysadmin
 
 10. Puppet
     * Labs 1&2 auto configured with puppet
