@@ -42,3 +42,7 @@ List of lab ideas for semester
 
 9. Ansible
     * Labs 1&2 auto configured with Ansible
+
+10. Final Project Cluster
+    * Follow manual instructions
+    * Turn in ansible playbooks or puppet manifests that automate doing it.
