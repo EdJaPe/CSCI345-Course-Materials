@@ -28,21 +28,28 @@ List of lab ideas for semester
     * test IPTables working
     * Answer questions about firewalls/iptables
 
-5. AWS
+5. Promethus/Monitoring
+    * Setup prometheus on 2 VMs 
+    * https://prometheus.io/
+
+6. Logs/Troubleshooting
+    * 1-2 broken VMs with service/goal of fixing... possibly broken service on one and need for a recovery disk on a second? 
+
+7. AWS
     * Labs 1/2 on AWS
 
-6. GCP
+8. GCP
     * Labs 1/2 on GCP
 
-7. Azure?
+9. Azure?
     * Labs 1/2 on Azure
 
-8. Puppet
+10. Puppet
     * Labs 1&2 auto configured with puppet
 
-9. Ansible
+11. Ansible
     * Labs 1&2 auto configured with Ansible
 
-10. Final Project Cluster
+12. Final Project Cluster
     * Follow manual instructions
     * Turn in ansible playbooks or puppet manifests that automate doing it.
