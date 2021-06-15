@@ -29,7 +29,7 @@ List of lab ideas for semester
     * test IPTables working
     * Answer questions about firewalls/iptables
 
-5. Making your own service
+5. Making your own service/CRON
 
 5. Promethus/Monitoring
     * Setup prometheus on 2 VMs 
