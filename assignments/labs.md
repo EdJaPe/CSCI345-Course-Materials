@@ -35,6 +35,7 @@ List of lab ideas for semester
     * Setup prometheus on 2 VMs 
     * https://prometheus.io/
     * https://linuxhint.com/install_prometheus_ubuntu/
+    * https://prometheus.io/docs/visualization/grafana/
     * ELK/Elastic Stack?
 
 6. Logs/Troubleshooting
