@@ -19,7 +19,7 @@ Initially we will be using Ubuntu 20.04, so download a copy of the server versio
 
 ### Setup VM
 
-Use the VMware create new VM dialog to create a new VM that uses the ISO file you downloaded from Ubuntu's website. This should be reasonably intuitive/automatic with VMware; however, you may wish to customize some things about the system. I would make sure of the following: 
+Use the VMware *"create new VM dialog"* to create a new VM that uses the ISO file you downloaded from Ubuntu's website. This should be reasonably intuitive/automatic with VMware; however, you may wish to customize some things about the system. I would make sure of the following: 
 
 * the VM has 35GB of storage
     * The storage is configured to split into multiple files and **not pre-allocate**, we don't want it to pre-allocate as will keep the size of the files you need to upload/send to me smaller. 
