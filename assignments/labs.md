@@ -29,15 +29,15 @@ List of lab ideas for semester
     * test IPTables working
     * Answer questions about firewalls/iptables
 
-5. Promethus/Monitoring
-    * Setup prometheus on 2 VMs 
-    * https://prometheus.io/
-    * ELK/Elastic Stack?
+5. Docker/K8s
 
 6. Logs/Troubleshooting
     * 1-2 broken VMs with service/goal of fixing... possibly broken service on one and need for a recovery disk on a second? 
 
-7. Docker/K8s
+7. Promethus/Monitoring
+    * Setup prometheus on 2 VMs 
+    * https://prometheus.io/
+    * ELK/Elastic Stack?
 
 8. AWS
     * Labs 1/2 on AWS
