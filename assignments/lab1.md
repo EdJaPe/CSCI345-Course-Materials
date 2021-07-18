@@ -15,7 +15,7 @@ Get a copy of VMware Fusion (macs) or VMware Workstation (windows/linux) from th
 
 ### Download Ubuntu ISO
 
-Initially we will be using Ubuntu 20.04, so download a copy of the server version of Ubuntu 20.04 from [Ubuntu's website](https://ubuntu.com/download/server).
+Initially we will be using Ubuntu 20.04, so download a copy of the server version of Ubuntu 20.04 from [Ubuntu's website](https://ubuntu.com/download/server). Make sure you click on *"Option 2: Manual server installation"* to download the server ISO disk image to use to setup a new VM from.
 
 ### Setup VM
 

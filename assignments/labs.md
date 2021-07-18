@@ -42,8 +42,8 @@ List of lab ideas for semester
 7. Logs/Troubleshooting
     * 1-2 broken VMs with service/goal of fixing... possibly broken service on one and need for a recovery disk on a second? 
 
-8. AWS
-    * Labs 1/2 on AWS
+8. Docker/K8s
+    * Labs 1/2 on Docker
 
 9. GCP
     * Labs 1/2 on GCP
