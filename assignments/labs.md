@@ -8,6 +8,7 @@ List of lab ideas for semester
     * Install updates
     * Install packages
         * OpenSSH, vim, curl, git, fortune, man
+    * Configure basic service
     
 2. SSH/Account Details
     * Add SSH public key to grader account
@@ -29,15 +30,17 @@ List of lab ideas for semester
     * test IPTables working
     * Answer questions about firewalls/iptables
 
-5. Docker/K8s
+5. Making your own service/CRON
 
-6. Logs/Troubleshooting
-    * 1-2 broken VMs with service/goal of fixing... possibly broken service on one and need for a recovery disk on a second? 
-
-7. Promethus/Monitoring
+6. Promethus/Monitoring
     * Setup prometheus on 2 VMs 
     * https://prometheus.io/
+    * https://linuxhint.com/install_prometheus_ubuntu/
+    * https://prometheus.io/docs/visualization/grafana/
     * ELK/Elastic Stack?
+
+7. Logs/Troubleshooting
+    * 1-2 broken VMs with service/goal of fixing... possibly broken service on one and need for a recovery disk on a second? 
 
 8. AWS
     * Labs 1/2 on AWS
