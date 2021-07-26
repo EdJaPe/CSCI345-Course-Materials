@@ -116,7 +116,7 @@ $ sudo systemctl restart sshd.service
 
 ### Test your setup
 
-Verify that SSH is now working on the non-standard port with only SSH keys. May require a third account that no keys have been configured to test. 
+Verify that SSH is now working on the non-standard port with only SSH keys. May require a third account that no keys have been configured to test. Small chance we'll need to update the firewall to allow the new port but hopefully will work on Ubuntu as it's not an SE_Linux distro. 
 
 ## Insult your users who mistype passwords using sudo
 
