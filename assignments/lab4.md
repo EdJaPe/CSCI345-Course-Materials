@@ -16,7 +16,7 @@ Install Node Exporter [1], which will be good practice for getting [Prometheus](
 
 ### Setup Node Exporter Service
 
-Create a systemd service file for node exporter at */etc/systemd/system/node_exporter.service*  
+Create a systemd service file for node exporter at [*/etc/systemd/system/node_exporter.service*](https://www.google.com/search?q=%2Fetc%2Fsystemd%2Fsystem%2Fnode_exporter.service)
 
 ## Answer Questions about Cron/Systemctl
 
