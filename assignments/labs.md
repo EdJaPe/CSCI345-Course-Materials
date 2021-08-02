@@ -25,12 +25,14 @@ List of lab ideas for semester
     * Potentially add multiple new disks, install ZFS, and setup ZFS volume across disks. 
     * FUSE ssh mount remote filesystem
 
-4. IPTables?
+
+
+6. Making your own service/CRON
+
+5. IPTables?
     * allow SSH and HTTP traffic but nothing else
     * test IPTables working
     * Answer questions about firewalls/iptables
-
-5. Making your own service/CRON
 
 6. Promethus/Monitoring
     * Setup prometheus on 2 VMs 
