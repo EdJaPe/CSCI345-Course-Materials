@@ -25,38 +25,36 @@ List of lab ideas for semester
     * Potentially add multiple new disks, install ZFS, and setup ZFS volume across disks. 
     * FUSE ssh mount remote filesystem
 
-
-
-6. Making your own service/CRON
+4. Making your own service/CRON
 
 5. IPTables?
     * allow SSH and HTTP traffic but nothing else
     * test IPTables working
     * Answer questions about firewalls/iptables
 
-6. Promethus/Monitoring
+6. Logs/Troubleshooting
+    * 1-2 broken VMs with service/goal of fixing... possibly broken service on one and need for a recovery disk on a second? 
+
+7. Docker/K8s
+    * Labs 1/2 on Docker
+
+8. Promethus/Monitoring
     * Setup prometheus on 2 VMs 
     * https://prometheus.io/
     * https://linuxhint.com/install_prometheus_ubuntu/
     * https://prometheus.io/docs/visualization/grafana/
     * ELK/Elastic Stack?
 
-7. Logs/Troubleshooting
-    * 1-2 broken VMs with service/goal of fixing... possibly broken service on one and need for a recovery disk on a second? 
-
-8. Docker/K8s
-    * Labs 1/2 on Docker
-
 9. GCP
-    * Labs 1/2 on GCP
+    * Labs 1/2/8 on GCP
 
 10. Python for sysadmin
 
 11. Puppet
-    * Labs 1&2 auto configured with puppet
+    * Labs 1&2&8 auto configured with puppet
 
 12. Ansible
-    * Labs 1&2 auto configured with Ansible
+    * Labs 1&2&8 auto configured with Ansible
 
 13. Final Project Cluster
     * Follow manual instructions
