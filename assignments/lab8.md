@@ -23,7 +23,7 @@ Answer the following questions in A8_README.md file in your submission folder.
 2. What is *grafana*?
 3. Why might you want to use *prometheus*?
 4. When do such tools really become useful? 
-5. When might you wnat to use them personally?
+5. When might you want to use them personally?
 
 ## Submitting Assignment
 
