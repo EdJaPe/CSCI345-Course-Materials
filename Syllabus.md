@@ -45,15 +45,17 @@ I will routinely post the grades to Moodle. If you are not happy with a grade, t
 
 ### Grade Category Percentages:
 
-+ To Be Determined
++ Assignments 80% of course grade
++ Final Project 10% of course grade
++ Exam 10% of course grade (if this doesn't happen it will become part of your final project grade)
 
 ### Grading Meetings
 
 We are going to investigate all the projects you turn in to look for code plagiarism via a number of different methods. Any students whose code isn't uniquely yours will need to schedule a grading meeting with the grader to answer detailed questions concerning how your code works. This meeting will make up 60% of your project grade and 40% will come from your ability to solve the project. If you didn't write your project you will likely fail the grading meeting and get a failing grade on the project. Seeking out fellow students for advice on how to get started is perfectly acceptable; however, do your own work and make sure you have a firm understanding of how your code works.
 
-## Programming Assignments
+## Assignments
 
-TBD
+There will be 12 hands on assignments or labs.
 
 ### Late Assignments:
 
@@ -107,7 +109,7 @@ The bottom line is that you must do all the assignments on your own. Turning in 
 * giving your code to another student (both giving code and taking code are forms of cheating)
 * giving your laptop that contains your program to another student
 * getting so much help on an assignment that you are no longer doing the assignment (this can come from one helper or many helpers)
-* crowdsourcing your code 
+* crowdsourcing your code
 * the list can go on...
 
 
@@ -121,7 +123,7 @@ Required Consultation: If I suspect that you did not do your own work (e.g. some
 
 I reserve the right to catch cheaters after the end of the semester. Just because a cheater makes it to the end of the semester without being caught does not mean he or she has gotten away with it. Since I keep assignments it is possible for me to catch cheaters after the fact. For example, assume your friend George gives you his old program and you turn it in. Next semester George might give his program to someone else and I could catch it. Now I will look through all old programs to see who else George has given his program to. One of my advantages is that I can use programs to look for all instances of an assignment over the past several years. And while I might not catch everyone, I am always amazed at the people I do catch.
 
-In addition to this, you are welcome to share your final project code after the semester has ended; however, the individual assignments should never be publicly shared or shared with any students. These assignments are code you developed for me and I reserve the right to seek legal compensation or to get your degree revoked if you share the code you developed for me publicly after the semester ends and if you have graduated. 
+In addition to this, you are welcome to share your final project code after the semester has ended; however, the individual assignments should never be publicly shared or shared with any students. These assignments are code you developed for me and I reserve the right to seek legal compensation or to get your degree revoked if you share the code you developed for me publicly after the semester ends and if you have graduated.
 
 ## Religious Holidays
 
@@ -138,14 +140,23 @@ As an instructor, one of my responsibilities is to help create a safe learning e
 
 ## Safe Zone Statement
 
-I am part of the Safe Zone Ally community network of trained Chico State faculty/staff/students who are available to listen and support you in a safe and confidential manner. As a Safe Zone Ally, I can help you connect with resources on campus to address problems you may face that interfere with your academic and social success on campus as it relates to issues surrounding sexual orientation/gender identity. My goal is to help you be successful and to maintain a safe and equitable campus. 
+I am part of the Safe Zone Ally community network of trained Chico State faculty/staff/students who are available to listen and support you in a safe and confidential manner. As a Safe Zone Ally, I can help you connect with resources on campus to address problems you may face that interfere with your academic and social success on campus as it relates to issues surrounding sexual orientation/gender identity. My goal is to help you be successful and to maintain a safe and equitable campus.
 
 ## LGBTQ Equality Statement
 
-I am firmly committed to diversity and equality in all areas of campus life, including specifically members of the LGBTQ community. In this class I will work to promote an anti-discriminatory environment where everyone feels safe and welcome. I recognize that discrimination can be direct or indirect and take place at both institutional and personal levels. I believe that such discrimination is unacceptable and I am committed to providing equality of opportunity for all by eliminating any and all discrimination, harassment, bullying, or victimization. The success of this policy relies on the support and understanding of everyone in this class. We all have a responsibility not to be offensive to each other, or to participate in, or condone harassment or discrimination of any kind. 
+I am firmly committed to diversity and equality in all areas of campus life, including specifically members of the LGBTQ community. In this class I will work to promote an anti-discriminatory environment where everyone feels safe and welcome. I recognize that discrimination can be direct or indirect and take place at both institutional and personal levels. I believe that such discrimination is unacceptable and I am committed to providing equality of opportunity for all by eliminating any and all discrimination, harassment, bullying, or victimization. The success of this policy relies on the support and understanding of everyone in this class. We all have a responsibility not to be offensive to each other, or to participate in, or condone harassment or discrimination of any kind.
 
 ## Chico State Basic Needs Project
 
 **The Hungry Wildcat Food Pantry** provides supplemental food, fresh produce, CalFresh application assistance and basic needs referral services for students experiencing food and housing insecurity.
 
 All students are welcomed to visit the Pantry located in the **Student Service Center 196**, open **Monday-Friday, 11am-4pm** or call **530-898-4098**. Please visit the Chico State Basic Needs website [http://www.csuchico.edu/basic-needs](http://www.csuchico.edu/basic-needs) for more information
+
+## COVID-19 safety reminder
+
+The CSU requires students to be fully vaccinated against COVID-19 by September 30, 2021, unless you have an approved exemption.  Currently, Chico State is requiring everyone on campus to wear an approved face covering in all indoor campus spaces. Accordingly, all students are required to wear an appropriate face mask covering the nose and mouth in order to participate in this course.   Policies and requirements regarding COVID-19 are subject to change pursuant to campus, local, state and/or federal guidelines.
+
+Please note that dishonesty relating to the vaccination policy and/or your failure to comply with any other COVID-19 related safety policy or mandate, including the face covering requirement, may result in disciplinary action against you through the office of Student Conduct, Rights and Responsibilities, which can include suspension or expulsion from the California State University system.
+
+Individuals unable to wear a face covering due to a medical condition should contact the Accessibility Resource Center by phone at (530) 898-5959 or by email at arcdept@csuchico.edu. If an ARC accomadation is not recieved I will assume you are failing to comply with the with the campus requirements and report you to the office of Student Conduct, Rights and Responsibilities mentioned above.
+
