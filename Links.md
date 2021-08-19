@@ -1,7 +1,7 @@
-* [Google Drive Shared Folder]() - Shared folder of lecture slides, and other materials.
+* [Google Drive Shared Folder](https://drive.google.com/drive/folders/1Z3GzJ58m_8RRJSx9WRHkuFPxqXRTFJm0?usp=sharing) - Shared folder of lecture slides, and other materials.
 * [Python](https://www.python.org/) - Python is extremely helpful in automating sysadmin tasks
-* [Git Basics Video](https://www.youtube.com/watch?v=0JgyAJMvZlY&feature=youtu.be) - Basic tutorial on using git for version control I recorded Spring 2020 
-* [Learn Git Branching](https://learngitbranching.js.org/) - Excellent web tutorial working through a variety of use cases for git including using branches. 
+* [Git Basics Video](https://www.youtube.com/watch?v=0JgyAJMvZlY&feature=youtu.be) - Basic tutorial on using git for version control I recorded Spring 2020
+* [Learn Git Branching](https://learngitbranching.js.org/) - Excellent web tutorial working through a variety of use cases for git including using branches.
 * [GitHub](https://github.com/) - Version Control & Open Source Code Repository (Education Accounts are Free)
 * [GitLab](https://gitlab.com/) - Version Control with baked in CI/CD (Unlimited private/public repos for all)
 * [BitBucket](https://bitbucket.org) - Version Control Host for GIT or MERCURIAL (Education Accounts are Free)
