@@ -41,7 +41,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-Where we use the *ssh-keygen* utility to generate a RSA type public/private key pair, with 4096 bits. You could use more bits for higher security, I usually use 8192 bits, but conventional logic is 4096 is still extremely secure for now. I would recommend just going with the defaults (hit enter) for all the prompts. A passphrase may be problematic when we get to scripting/automating using this key potentially in the future. 
+Where we use the *ssh-keygen* utility to generate a RSA type public/private key pair, with 4096 bits. You could use more bits for higher security, I usually use 8192 bits, but conventional logic is 4096 is still extremely secure for now. I would recommend just going with the defaults (hit enter) for all the prompts. A passphrase may be problematic when we get to scripting/automating using this key potentially in the future.
 
 If you are on Windows you can generate keys in Putty, use WSL2 to provide linux features, or other methods. Here's a guide from Oracle for doing it in Putty: [https://docs.oracle.com/en/cloud/paas/event-hub-cloud/admin-guide/generate-ssh-key-pair-using-puttygen.html](https://docs.oracle.com/en/cloud/paas/event-hub-cloud/admin-guide/generate-ssh-key-pair-using-puttygen.html)
 
@@ -52,13 +52,13 @@ You may want to consider other more secure keys to generate as well such as:
 * ed25519 - elliptic curve cryptography based public/private key pair
 * id_ecdsa_sk or ed25519-sk - elliptic curve based keys with FIDO enhancement
     * ECDSA type key is acceptable here since requires FIDO as well, but on its own isn't recommended since hinges on your machine's "randomness"
-    * Requires a security key like a Yubikey as will require user interaction/presence to secondarily sign the key. 
+    * Requires a security key like a Yubikey as will require user interaction/presence to secondarily sign the key.
 
-Not sure if any of these are feasible on Windows. 
+Not sure if any of these are feasible on Windows.
 
 ### Keys added to accounts
 
-So now you need to add your public key to your authorized keys file on your VM. There are many ways to do this. The easiest is from your host if you're on macOS/Linux is to use the *ssh-copy-id* utility to copy your key(s) to the remote machine for the given account you tell it to copy to. 
+So now you need to add your public key to your authorized keys file on your VM. There are many ways to do this. The easiest is from your host if you're on macOS/Linux is to use the *ssh-copy-id* utility to copy your key(s) to the remote machine for the given account you tell it to copy to.
 
 Alternatively, for the grader account and if you're on Windows you'll need to manually add public keys, one on each new line, to the file in the hidden directory in your home folder *.ssh*. So for your account:
 
@@ -74,7 +74,7 @@ Make sure the following public key is added to the grader account:
 sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBOmPlrtfbfYXJOJ1G2djM68CaeijY6aQpx3SG3xbGQZhH6M/rNZOcICh/6HDFhrZzsO4pv2z2d1ZIhIARIDnPg4AAAAEc3NoOg== bryandixon@S59671
 ```
 
-I would recommend you also add your own public key to the grader account as well. 
+I would recommend you also add your own public key to the grader account as well.
 
 ## SSH Configuration
 
@@ -116,7 +116,7 @@ $ sudo systemctl restart sshd.service
 
 ### Test your setup
 
-Verify that SSH is now working on the non-standard port with only SSH keys. May require a third account that no keys have been configured to test. Small chance we'll need to update the firewall to allow the new port but hopefully will work on Ubuntu as it's not an SE_Linux distro. 
+Verify that SSH is now working on the non-standard port with only SSH keys. May require a third account that no keys have been configured to test. Small chance we'll need to update the firewall to allow the new port but hopefully will work on Ubuntu as it's not an SE_Linux distro.
 
 ## Insult your users who mistype passwords using sudo
 
@@ -128,7 +128,7 @@ $ sudo visudo
 Defaults        insults,env_reset
 ```
 
-Once you've added insults to the list of *Defaults* this feature will be enabled. 
+Once you've added insults to the list of *Defaults* this feature will be enabled.
 
 ## Add grader to the sudoers file
 
@@ -150,11 +150,11 @@ And you want to add the following line after the one for the user root:
 grader    ALL=(ALL:ALL) ALL
 ```
 
-This will give the user *grader* all sudo access. 
+This will give the user *grader* all sudo access.
 
 ## Submitting Assignment
 
-Due to the size of the VM we don't have an easy way for you to submit it so we we will be leveraging Google Drive for submission. If you're on macOS you'll see your VMs likely in a Virtual Machines folder in your home directory, I think on Windows/Linux it's either in your documents or similar location. On macOS you should see the VM as a file potentially with the *.vmwarevm* file extension. In reality the VM is a folder of a bunch of files, which is likely what it looks like on Windows/Linux. You want to put the whole folder into a folder somewhere on your google drive in a folder called **A2_Submission** that you will share with my campus gmail, &#098;&#099;&#100;&#105;&#120;&#111;&#110;&#064;&#109;&#097;&#105;&#108;&#046;&#099;&#115;&#117;&#099;&#104;&#105;&#099;&#111;&#046;&#101;&#100;&#117;. 
+Due to the size of the VM we don't have an easy way for you to submit it so we we will be leveraging Google Drive for submission. If you're on macOS you'll see your VMs likely in a Virtual Machines folder in your home directory, I think on Windows/Linux it's either in your documents or similar location. On macOS you should see the VM as a file potentially with the *.vmwarevm* file extension. In reality the VM is a folder of a bunch of files, which is likely what it looks like on Windows/Linux. You want to put the whole folder into a folder somewhere on your google drive in a folder called **A2_Submission** that you will share with my campus gmail, &#098;&#099;&#100;&#105;&#120;&#111;&#110;&#064;&#109;&#097;&#105;&#108;&#046;&#099;&#115;&#117;&#099;&#104;&#105;&#099;&#111;&#046;&#101;&#100;&#117;.
 
 So make sure you do the following:
 
@@ -162,13 +162,14 @@ So make sure you do the following:
 * Share **A2_Submission** with my campus @mail.csuchico.edu email
     * You should additionally put a shared link in a file and commit to your CSCI444 repo
 * Copy your *.vmwarevm* folder of files into the submission folder.
-    * When I go to the **A2_Submission** folder I should see the vmware image parent folder not all the vm files contained inside. 
+    * When I go to the **A2_Submission** folder I should see the vmware image parent folder not all the vm files contained inside.
+* Share the submission folder as a link that you put in a text file and submit to [Tyson's Turnin system](https://turnin.ecst.csuchico.edu/) before the deadline.
 
-This approach to submitting may be a huge headache/problem but I didn't want to build an auto grading tool again to not teach this class again for another 8 years. 
+This approach to submitting may be a huge headache/problem but I didn't want to build an auto grading tool again to not teach this class again for another 8 years.
 
 ### Alternative Submission Method (Slow Internet)
 
-If you have extremely slow internet and can't upload your submission while on campus for class you can alternatively come show me your submission during office hours; however, make sure you have not opened/touched the VM after the submission deadline or I won't be able to accept your submission. 
+If you have extremely slow internet and can't upload your submission while on campus for class you can alternatively come show me your submission during office hours; however, make sure you have not opened/touched the VM after the submission deadline or I won't be able to accept your submission.
 
 ## References
 
