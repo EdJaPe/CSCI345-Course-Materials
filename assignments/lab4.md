@@ -8,7 +8,7 @@
 
 ## Setup CRON
 
-Edit the *crontab* to append the current date to a file in the grader's home directory.
+Edit the *crontab* to append the current date to a file in the grader's home directory every 5 mins.
 
 ## Setup a service
 
