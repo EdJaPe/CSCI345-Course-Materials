@@ -6,11 +6,10 @@
     * Create grader account
     * Install updates
     * Install packages
-        * OpenSSH, vim, curl, git, fortune, man, Nginx
+        * vim, curl, git, fortune, man, Nginx
     * Configure Nginx
-    * Add SSH public key to grader account
-    * Configure SSH to be public/private key only
-    * Change SSH port to non-standard port
+    * Default container to grader account
+    
 
 ## Docker
 
