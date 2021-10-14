@@ -9,6 +9,7 @@
         * vim, curl, git, fortune, man, Nginx
     * Configure Nginx
     * Default container to grader account
+        * Multiple ways to do this but could run an infinite loop in the foreground and let nginx remain a background service. 
     
 
 ## Docker
