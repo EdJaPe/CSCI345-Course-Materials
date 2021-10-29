@@ -10,7 +10,7 @@
     * Install updates
     * Install packages
         * vim, curl, git, fortune, man
-    * Add SSH public key to grader account
+    * Add my SSH public key to grader account
     * Insult users who mistype sudo password
     * Adding grader account to sudoer file
 
