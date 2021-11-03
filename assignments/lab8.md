@@ -31,6 +31,7 @@ Commit to the *assignment8* branch of your CSCI444 organization repo with the fo
 
 * Dockerfiles
 * docker-compose.yml
+* Any other files needed
 * A8_README.md
 
 Verify that you can see your files on GitHub for the repo under the *assignment8* branch. Also make sure your branch is named correctly or it will not be pulled for grading.  
