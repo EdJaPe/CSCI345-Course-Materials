@@ -28,6 +28,7 @@ Answer the following questions in Final_README.md file in your submission folder
 1. What is Kubernetes?
 2. Why might you want a shared home directory?
 3. Why would you want to automate the setup?
+4. Did you setup your K8s cluster on GCP or locally? Why did you choose this route?
 
 ## Submitting Project
 
