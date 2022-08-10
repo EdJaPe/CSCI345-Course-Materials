@@ -1,4 +1,4 @@
-# CSCI444 Syllabus
+# CSCI345 Syllabus
 
 ## Instructor
 
@@ -17,7 +17,7 @@ In addition to a campus lab account, you need an account in the CSCI assignment 
 
 Go to [https://turnin.ecst.csuchico.edu](https://turnin.ecst.csuchico.edu "Tyson's Turnin System") and create a new account.
 
-Once you create an account, log on and enroll in CSCI 444, make sure you enroll in the correct section.
+Once you create an account, log on and enroll in CSCI 345, make sure you enroll in the correct section.
 
 **I WILL DROP YOU FROM THE CLASS IF YOU DO NOT CREATE THIS ACCOUNT**
 
@@ -68,7 +68,7 @@ As this is a upper division course you'll likely want to make use of my office h
 
 We will be using Piazza for a class discussion board. I will enroll all students enrolled at the start of the semester, if you enrolled later you should email me if you aren't part of this discussion board as I'll also post announcements there. You should post any general questions here first as this will allow more students to benefit from the answer vs me potentially answering the same questions numerous times.
 
-Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CSCI444'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it.
+Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CSCI345'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it.
 
 I'll be making it a habit to respond immediately to emails received between 9am-5pm, except when I'll otherwise be in a meeting, lecture, etc. Any emails outside of those times will be answered as I can or potentially the next morning at 9am, so try to make sure to email me prior to 5pm.
 
