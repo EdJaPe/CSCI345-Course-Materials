@@ -129,9 +129,11 @@ $ sudo umount /mnt/sshfs
 So the ZFS pool will already automatically remount at the mount path you gave it before; however, your *EXT4* and *sshfs* mounts will need to be remounted everytime your machine restarts. This isn't ideal so we want to automatically have them mount. To do this we'll need to edit the */etc/fstab* file to add new file systems to the table of mounts. You should be able to add the following lines to the end of the file:
 
 ```bash
-sshfs#username@ecc-linux.csuchico.edu:/tmp /mnt/sshfs fuse IdentityFile=/home/your_user/.ssh/id_rsa,allow_other,default_permissions 0 0
+sshfs#username@ecc-linux.csuchico.edu:/tmp /mnt/sshfs fuse IdentityFile=/home/your_user/.ssh/id_rsa,delay_connect,allow_other,default_permissions 0 0
 /dev/sdb1   /mnt/ext4  ext4   defaults    0   0
 ```
+
+The 'delay_connect' option is necessary since your VM doesn't have internet while it boots when the SSHFS tries to connect. This will wait until the other services are online first, including networking, before connecting and should prevent issues with booting your system.
 
 In my case my *EXT4* disk was */dev/sdb1* this may not be the case for you. Also your username/user information for the *sshfs* will need to match accordingly.
 
