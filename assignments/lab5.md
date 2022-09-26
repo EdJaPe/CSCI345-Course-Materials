@@ -3,7 +3,7 @@
 ## Goals
 
 * allow SSH and HTTP traffic but nothing else
-* test IPTables working
+* test firewall is working
 * Answer questions about firewalls/iptables
 
 ## Install NGINX
