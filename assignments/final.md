@@ -10,16 +10,9 @@
 
 ## Instructions
 
-For help refer to [Kubernetes Docs to setup a cluster with *kubeadm*](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/)
+For help refer to [K3s Docs to setup a cluster](https://docs.k3s.io/installation)
 
 You only need to setup a basic cluster.
-
-This command, from [*kubectl* cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) may be helpful to verify all of your nodes are in the cluster:
-
-```bash
-# Get ExternalIPs of all nodes
-$ kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="ExternalIP")].address}'
-```
 
 ## Answer Questions
 
@@ -28,11 +21,11 @@ Answer the following questions in Final_README.md file in your submission folder
 1. What is Kubernetes?
 2. Why might you want a shared home directory?
 3. Why would you want to automate the setup?
-4. Did you setup your K8s cluster on GCP or locally? Why did you choose this route?
+4. Did you setup your K3s cluster on GCP or locally? Why did you choose this route?
 
 ## Submitting Project
 
-Commit to the *finalproject* branch of your CSCI444 organization repo with the following:
+Commit to the *finalproject* branch of your CSCI345 organization repo with the following:
 
 * Ansible Playbooks or Puppet Manifests
 * Ansible Inventory (if using ansible)
