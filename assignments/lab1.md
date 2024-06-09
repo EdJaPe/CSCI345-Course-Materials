@@ -3,7 +3,8 @@
 ## Goals
 
 * Create your account
-* Create grader account
+* Create separate grader account
+   * Should not be done via GCP SSH add interface.
 * Install updates
 * Install packages
     * OpenSSH, vim, curl, git, fortune, man, Nginx
