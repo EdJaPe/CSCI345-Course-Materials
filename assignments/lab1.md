@@ -15,6 +15,54 @@
 
 Create an instance on GCP with Ubuntu 24.04.1
 
+### SSH Keys
+
+For GCP cloud SSH access not through the web interface you'll need to generate a public/private key pair.
+
+#### Generate keys
+
+So first you need to generate a public/private key pair on your system that you will want to SSH into your VM from. For macOS/Linux OS this is reasonably simple in the terminal:
+
+```bash
+$ ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/bcdixon/.ssh/id_rsa):
+Created directory '/Users/bcdixon/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/bcdixon/.ssh/id_rsa
+Your public key has been saved in /Users/bcdixon/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:r9lNfugmvOpcQ0M5ZjiECk3eaXoehHJcvGJW+W93PWI bcdixon@S59671
+The key's randomart image is:
++---[RSA 4096]----+
+|   o...o.        |
+|  .o.+=o . .     |
+|  ..=o=oo *      |
+|   o=+. .= .     |
+|   o..o S.o    . |
+|     o . oo..E...|
+|      .  o+.oo. .|
+|       . =o=o .  |
+|       .*.o=+.   |
++----[SHA256]-----+
+```
+
+Where we use the *ssh-keygen* utility to generate a RSA type public/private key pair, with 4096 bits. You could use more bits for higher security, I usually use 8192 bits, but conventional logic is 4096 is still extremely secure for now. I would recommend just going with the defaults (hit enter) for all the prompts. A passphrase may be problematic when we get to scripting/automating using this key potentially in the future.
+
+If you are on Windows you can generate keys in Putty, use WSL2 to provide linux features, or other methods. Here's a guide from Oracle for doing it in Putty: [https://docs.oracle.com/en/cloud/paas/event-hub-cloud/admin-guide/generate-ssh-key-pair-using-puttygen.html](https://docs.oracle.com/en/cloud/paas/event-hub-cloud/admin-guide/generate-ssh-key-pair-using-puttygen.html)
+
+#### Generate Additional Keys (optional)
+
+You may want to consider other more secure keys to generate as well such as:
+
+* ed25519 - elliptic curve cryptography based public/private key pair
+* id_ecdsa_sk or ed25519-sk - elliptic curve based keys with FIDO enhancement
+    * ECDSA type key is acceptable here since requires FIDO as well, but on its own isn't recommended since hinges on your machine's "randomness"
+    * Requires a security key like a Yubikey as will require user interaction/presence to secondarily sign the key.
+
+Not sure if any of these are feasible on Windows.
+
 ### Create Grader Account
 
 Create a grader account so I can login and test that everything is configured correctly. The account should have the following details:
