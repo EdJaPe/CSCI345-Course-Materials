@@ -3,29 +3,17 @@
 ## Goals
 
 * Create your account
-* Create separate grader account
-   * Should not be done via GCP SSH add interface.
+* Create a separate grader account
+   * Should **not** be done adding a new key to your GCP instance
+* Add SSH key to grader account
 * Install updates
 * Install packages
-    * OpenSSH, vim, curl, git, fortune, man, Nginx
+    * vim, curl, git, fortune, man, Nginx
 * Configure Nginx
 
 ## Create your virtual machine/accounts
 
-Get a copy of VMware Fusion (macs) or VMware Workstation (windows/linux) from the campus [OnTheHub](https://csuchico.onthehub.com/) page. This will be a free 1 year license for this software.
-
-### Download Ubuntu ISO
-
-Initially we will be using Ubuntu 20.04, so download a copy of the server version of Ubuntu 20.04 from [Ubuntu's website](https://ubuntu.com/download/server). Make sure you click on *"Option 2: Manual server installation"* to download the server ISO disk image to use to setup a new VM from.
-
-### Setup VM
-
-Use the VMware *"create new VM dialog"* to create a new VM that uses the ISO file you downloaded from Ubuntu's website. This should be reasonably intuitive/automatic with VMware; however, you may wish to customize some things about the system. I would make sure of the following:
-
-* the VM has 35GB of storage
-    * The storage is configured to split into multiple files and **not pre-allocate**, we don't want it to pre-allocate as will keep the size of the files you need to upload/send to me smaller.
-* Your user account username/password are configured
-* One of the packages I'll have you install later is OpenSSH which if you are paying attention during installation can be installed at this point.
+Create an instance on GCP with Ubuntu 24.04.1
 
 ### Create Grader Account
 
@@ -33,6 +21,24 @@ Create a grader account so I can login and test that everything is configured co
 
 * username: grader
 * password: grader
+
+### Add Grading SSH key to Grader Account
+
+You'll need to manually edit the grader authorized keyfile, so switch to the grader user and edit the following file:
+
+```bash
+$ vim ~/.ssh/authorized_keys
+```
+
+You won't be able to save unless the hidden .ssh folder exists.
+
+Add the following public key:
+
+```bash
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAEAQCyy9AM+D+EjIaXoE3XTMyBgFjiwEZBkbRmwHf0oetUXyl6sbOY3qihiN6eQLQCN4/y/AB1cjs+rcIgbhsLsfBlJheqRuv6flaS24ycI9vNA72oKKIw2F/CPgIbr0FkfsjIziSix4e8bC6BAHQxo5PfCNLlGQHQumBFB749QByv25wLRqh7dyY4cuMwszmTzhEzWSSIdqOqDYwOVGuIWWd+f5crpem38fZnP3FR2GGMcnOwjlPnxHj/3JH3Gt9eEY6eLITrlGG6/jxEz3awjulZhJbIs6h9U++b4f772LPRG4hZz3ygBnMo0rqSYJB1hGiFqxLvI6HMrcg9eyOKa8yGxp+s2vToQHRLdN/ORV6lBM+L1C8NkyMsS2zd64kU93CAPV5up45j3S9o4IeHeck1SeU6htTEPzFxlSN1L/R89TivhvTIZRuNclBuJsk9r/FPClqOI7sxjMworXYtSv/UYkHqiGzt646evIBZHJZ4bXgkkO7bmg4kL/+TuKmRgdWfRkO/WsjY4YuHlfC8YMCqhEgb1q4ksv/+PDkiVm4kp6Zu96bB6ZENnMOTFuHx/TYLSXmedQF1Q54mFCX+7+zYiwQuJazdRly/yy5yf9lBS5C7AmRckqcM8zQ7xjWrG7UsU0Pgu2PyrV5T5XDlczjAZgqIrraWtqiSl+2t/8eqSPO395OMK0gakGYPFfvBd/8E+Jqwq/8glU8WHSzAmlpnAy41jHasYj/JjWVrfKaTB1s2TVnIbTHFC91xDHl5L3WNIHzgizVB5nbga8rjJAw+F804ZAIy8hOimYZjIHJcmdHjco+W/NGMHvvnKNdWvyOMCocq6sxW5Tbsje+BfPALDo58pUkyU26xEz9gm9imgTFEtviA2cbTtWSTeSFT6j5QSM3Z7AQvdruvExJusR+jLpwwVT3INxUOFEKhzYiRr1sVliKRB0vHWkksoX42DULYrndvUVDYKLD3FtzzF7K3V/rB2dWXyeTyKJY1OPgeqZXz2Kke9ILR0EOpoNXyXaTeW+U0k/ofjfcRQ8Oio9cREIt9+pmQARcI1uDuointhLDnCeBotSwIC3NifoHmVQWCXBZqhrsWa3V0z+TOgZr/eH6RimsILVVl4gkiaJ1+daw+gfPIlNO5IORsR3C8ECaLSEWuS+GeGYjDXNOK5Jcj5EQoADpWYaIUJcBmyreAajnlhbeImryLiMMd5DrlQxJPJWi02ZSbPYS/Z2k3gZLQndhDXtXX1qsWLPh1RdtvO4x5nveP3X9+gjnHt98aYHR98tFmXLUBPzGLX1MInUL2ARzCQTTS/PXKTeemjYe81rT3mrwVU4MM9o9GyGOe9IuRkL5hL0+kv9MT/MmWhN7D bcdixon@inginious
+```
+
+You can your key as well on a second line.
 
 ## Packages/Updates
 
@@ -44,7 +50,6 @@ Make sure the first thing you do when you get on the machine is install any and 
 
 Once you've updated the machine, next install the following packages:
 
-* openssh-server
 * vim
 * nano
 * emacs
