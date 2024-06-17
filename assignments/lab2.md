@@ -117,7 +117,7 @@ The final goal is to configure NGINX to do the following:
 
 ## Submitting Assignment
 
-Submit the IP of your VM instance to [https://inginious.csuchico.edu](https://inginious.csuchico.edu/) for the Lab 3 submission.
+Submit the IP of your VM instance to [https://inginious.csuchico.edu](https://inginious.csuchico.edu/) for the Lab 2 submission.
 
 ### Alternative Submission Method 
 
