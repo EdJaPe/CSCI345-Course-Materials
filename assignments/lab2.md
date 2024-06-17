@@ -112,7 +112,6 @@ Once you've updated the machine, next install the following packages:
 
 The final goal is to configure NGINX to do the following:
 
-* listen on port 5555 instead of port 80
 * display **CINS345** instead of the default NGINX is installed message
 
 ## Submitting Assignment
