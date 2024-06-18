@@ -1,5 +1,7 @@
 # Lab 3
 
+Continue with the VM from Lab 2 to do the following.
+
 ## Goals
 
 * Change SSH port to non-standard port
