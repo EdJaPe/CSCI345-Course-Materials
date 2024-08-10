@@ -12,16 +12,11 @@ Students who take this class without completing the prerequisite class will be g
 
 
 ## Course Accounts
+In addition to a campus lab account, you need an account in the CSCI assignment turn-in system, [https://inginious.csuchico.edu](https://inginious.csuchico.edu "INGInious"), check Canvas for instructions on creating an account. 
 
-In addition to a campus lab account, you need an account in the CSCI assignment turn-in system.
+**You will not be able to submit a number of the assignments if you don't create this account**
 
-Go to [https://turnin.ecst.csuchico.edu](https://turnin.ecst.csuchico.edu "Tyson's Turnin System") and create a new account.
-
-Once you create an account, log on and enroll in CSCI 345, make sure you enroll in the correct section.
-
-**I WILL DROP YOU FROM THE CLASS IF YOU DO NOT CREATE THIS ACCOUNT**
-
-You will potentially use this system to turn in some of your assignments, the rest will be submitted via GitHub.
+You will use this system to turn in some of your assignments, the rest will be submitted via GitHub.
 
 ## Textbook
 
@@ -55,28 +50,28 @@ We are going to investigate all the projects you turn in to look for code plagia
 
 ## Assignments
 
-There will be 12 hands on assignments or labs.
+There will be about 10 hands-on assignments or labs.
 
 ### Late Assignments:
 
 Assignments turned in 1-24 hours after the due date will lose 15%
-Assignments will NOT be accepted more that 24 hours after the due date.
+Assignments will NOT be accepted more than 24 hours after the due date.
 
 ## Getting Help/E-mail
 
-As this is a upper division course you'll likely want to make use of my office hours for help as it is unlikely there are tutors or other such resources.
+As this is an upper-division course, you'll likely want to use my office hours for help, as it is unlikely there are tutors or other such resources.
 
-We will be using Piazza for a class discussion board. I will enroll all students enrolled at the start of the semester, if you enrolled later you should email me if you aren't part of this discussion board as I'll also post announcements there. You should post any general questions here first as this will allow more students to benefit from the answer vs me potentially answering the same questions numerous times.
+We will be using [Ed Discussion](https://edstem.org/) for a class discussion board. I will enroll all students enrolled at the start of the semester. If you enroll later, you should email me if you aren't part of this discussion board, as I'll also post announcements there. You should post any general questions here first, as this will allow more students to benefit from the answer vs. me potentially answering the same questions numerous times. You should also privately message me here for specific questions to make sure they don't get lost in my email box.
 
-Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CSCI345'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open it or respond to it.
+Additionally, you can email me directly with any specific questions, the distinction would be help with your code or assignment that would be unique to you and sharing with the class on the discussion board would be considered cheating. Make sure you put **'CSCI345'** in the subject so it will be filtered correctly. **ALL EMAIL WITH NO SUBJECT WILL NOT BE OPENED**, so if you send me an email without a subject do not expect a response as I will not open or respond to it.
 
-I'll be making it a habit to respond immediately to emails received between 9am-5pm, except when I'll otherwise be in a meeting, lecture, etc. Any emails outside of those times will be answered as I can or potentially the next morning at 9am, so try to make sure to email me prior to 5pm.
+I'll try to respond to emails received between 9 a.m. and 5 p.m., except when I'm in a meeting, lecture, etc. Any emails outside of those times will be answered as soon as I can or potentially the next morning at 9 a.m., so try to make sure to email me prior to 5 p.m. But I get an subtantive number of emails so the use of [Ed Discussion](https://edstem.org/) is recommended if you want a timely response.
 
-I will routinely communicate with the class via announcements on the Piazza board. Make sure your email on Moodle that is integrated into Piazza is one you check regularly so that you don't miss any of these communications.
+I will routinely communicate with the class via announcements on [Ed Discussion](https://edstem.org/). Make sure your email [Ed Discussion](https://edstem.org/) is one you check regularly so that you don't miss any of these communications.
 
-If you don't have access to the class Piazza page make sure you email me for access. You will not receive the class e-mails and may miss important information about the class if your account wasn't created.
+If you don't have access to the [Ed Discussion](https://edstem.org/) page make sure you email me for access. You will not receive the class e-mails and may miss important information about the class if your account wasn't created.
 
-If you drop the class, you should be able to un-enroll from Moodle/Piazza to stop receiving messages. Let me know if you drop the class and still get e-mail.
+If you drop the class, you should be able to un-enroll from [Ed Discussion](https://edstem.org/) to stop receiving messages. Let me know if you dropped the class and still get an e-mail.
 
 
 ## Responsibilities
@@ -110,6 +105,7 @@ The bottom line is that you must do all the assignments on your own. Turning in 
 * giving your laptop that contains your program to another student
 * getting so much help on an assignment that you are no longer doing the assignment (this can come from one helper or many helpers)
 * crowdsourcing your code
+* Having a LLM do your assignments
 * the list can go on...
 
 
