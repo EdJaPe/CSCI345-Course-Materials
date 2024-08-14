@@ -45,6 +45,12 @@ $ sudo systemctl restart sshd.service
 
 Verify that SSH is now working on the non-standard port with only SSH keys. May require a third account that no keys have been configured to test. Small chance we'll need to update the firewall to allow the new port but hopefully will work on Ubuntu as it's not an SE_Linux distro.
 
+## Configure NGINX
+
+Configure NGINX to do the following:
+
+* listen on port 5555 instead of port 80
+
 ## Insult your users who mistype passwords using sudo
 
 One of my favorite features you can enable is the ability for the system to insult users when they mistype their password authenticating for sudo. Edit the sudoers file (*/etc/sudoers*) which is where the sudo configuration is done, we will be using the visudo utility. Options are set on lines that begin with the Defaults keyword.
