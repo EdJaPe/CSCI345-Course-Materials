@@ -173,18 +173,6 @@ $ sudo zfs set mountpoint=/mnt/zfs <pool_name>
 
 Now verify with the *df* command that your pool's mountpoint is at the correct location.
 
-## SSH Filesystem
-
-One of the more interesting applications of Filesystems in User SpaceE (FUSE) is to make a filesystem that mounts a remote SSH filesystem to a local mount point.
-
-### Install sshfs
-
-The first step is installing the *sshfs* package.
-
-### SSH keys
-
-Create an SSH keypair on your VM and add that ssh public key to your ecc-linux account. I would recommend removing this key from your authorized_keys file on ecc-linux as soon as this assignment has been graded.
-
 
 
 ## Automatically mount volumes
