@@ -127,7 +127,7 @@ Take note of the disk paths for your 3 disks and then use the zpool command to c
 $ sudo zpool create <pool_name> raidz1 <drive1> <drive2> <drive3>
 ```
 
-Make sure to replace all of the above values with **<>** with the values for your machine. If you want more details on the zpool command read the man page.
+Make sure to replace all of the above values with **<>** with the values for your machine. If you want more details on the zpool command read the man page. Also make sure you name your pool ***mypool*** and use raidz1 for the pool, or INGInious won't give you credit.
 
 After creating the pool make sure that it created correctly by checking the status, which in my case looked as follows:
 
