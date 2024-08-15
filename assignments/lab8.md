@@ -2,40 +2,39 @@
 
 ## Goals
 
-* Configure docker images with *docker-compose*
-* Setup *node-exporter* on 2 docker images
-* Setup *prometheus* on 1 docker image
-* Setup *grafana* 
+* Setup *node-exporter* on 2 GCP micro instances
+* Setup *prometheus* on one of the 2 GCP micro instances
+* Setup *grafana* on the same micro instance you setup *prometheus*
+* On both GCP instances
+    * Create grader account
+    * Install updates
+    * Install packages
+        * vim, curl, git, fortune, man
+    * Add my SSH public key to grader account
+    * Insult users who mistype sudo password
+    * Adding grader account to sudoer file
 
 ## Details
 
-Configure at least 2 docker images to have *node-exporter*, using *docker-compose* link the containers with one running *prometheus* to get the data from the *node-exporter* containers when running. 
+You should create two micro-instances on the Google Cloud Platform (GCP). Each of these should have *node-exporter* configured as a service. You should also do many of the lab 1 & 2 configurations as mentioned in the goals to both instances.
 
-## Grafana
+Choose one instance to be your *Prometheus*/*Grafana* instance and setup both as services on this instance, to pull data from both GCP instances. You may need to configure the GCP firewall to allow internal access so that this node can poll the *node-exporter* on the other instance.
 
-Setup *grafana* preferably on it's own container to pull data from the *prometheus* container. Microservices by convention are 1 service per container; however, integrating monitoring like *prometheus* and *grafana* is kind of an added layer. 
+## Answer Questions about GCP
 
-## Answer Questions about Prometheus/Grafana
+Answer the following questions on your submission on Canvas.
 
-Answer the following questions in A8_README.md file in your submission folder. 
-
-1. What is *prometheus*?
-2. What is *grafana*?
-3. Why might you want to use *prometheus*?
-4. When do such tools really become useful? 
-5. When might you want to use them personally?
+1. What is *GCP*?
+2. What makes it "Cloud" computing?
+3. When might you use Cloud vs on-premises computing?
+4. Are there any risks/concerns about Cloud?
+5. What is the IP address to access your prometheus instance?
+    * Along with any other info I need to access it from the web
+    * Reminder I should be able to access it via SSH as well with the grader account.
 
 ## Submitting Assignment
 
-Commit to the *assignment8* branch of your CSCI444 organization repo with the following:
-
-* Dockerfiles
-* docker-compose.yml
-* Any other files needed
-* A8_README.md
-
-Verify that you can see your files on GitHub for the repo under the *assignment8* branch. Also make sure your branch is named correctly or it will not be pulled for grading.  
-
+Answer the questions on Canvas
 
 ## Resources
 
