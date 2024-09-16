@@ -11,7 +11,7 @@ Continue with the VM from Lab 2 to do the following.
 * Add new disk to VM
 * Use parted to partition disk(s) with ext4
 * Add multiple new disks, install ZFS, and setup ZFS volume across disks
-* Auto-mount the new ext4 and ZFS volumes using /etc/fstab
+* Auto-mount the new ext4 volume using /etc/fstab
 
 ## SSH Configuration
 
